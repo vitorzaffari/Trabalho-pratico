@@ -1,0 +1,115 @@
+body{
+    background-color: aliceblue;
+    margin: 0;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.titulo{
+    color: #094e92;
+    text-shadow: 2px 2px #0000003b;
+    text-align: center;
+
+}
+
+
+section{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 0;
+    width: 800px;
+    gap: 10px;
+
+}
+
+
+.introducao p{
+    font-size: 1.1rem;
+    text-align: justify;
+    width: 800px;
+    margin: 0px auto 0px auto;
+
+}
+button{
+    display: block;
+    padding: 4px;
+    width: 250px;
+    margin: auto;
+    cursor: pointer;
+}
+
+span{
+    text-align: center;
+}
+
+.atividades{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+
+.subtitulo{
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.lista{
+    list-style-type: decimal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    padding: 0px;
+}
+
+.lista li{
+    text-align: center;
+}
+
+img{
+    width: 500px;
+    padding: 10px;
+    display: block;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+   
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+td, th{
+    text-align: center;
+    padding: 5px;
+}
+
+td{
+    border: 1px solid rgba(255, 0, 0, 0.1);
+}
+
+th{
+    border: 1px solid rgba(255, 0, 0, 0.336);
+}
+table{
+    margin: auto;
+    padding: 5px;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+.texto_link{
+    margin: auto;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    transition: 300ms;
+}
+
+a:hover{
+    color: red;
+}
